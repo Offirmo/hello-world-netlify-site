@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-netlify-site",
+  "version": "1.0.0",
+  "description": "Test of a basic Netlify site https://www.netlify.com/",
+  "main": "index.js",
+  "repository": "git@offirmo.github.com:Offirmo/hello-world-netlify-site.git",
+  "author": "Offirmo <offirmo.net@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+  }
+}

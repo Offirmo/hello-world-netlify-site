@@ -6,32 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hello world netlify</title>
 
-	<style type="text/css">
-		body {
-			margin: 40px;
-			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-			color: #333;
-		}
+	<link rel="stylesheet" type="text/css" href="https://rawgit.com/Offirmo/offirmo-monorepo/master/2-advanced/view-css/dist/offirmo-reset%2Butils.css" />
 
-		.place {
-			color: #00B32D;
-		}
-		.place:after {
-			content: ' 🏜';
-		}
-		.person {
-			color: #0b97c4;
-		}
-		.item-weapon {
-			color: #d9534f;
-		}
-		.item-weapon:before {
-			content: '⚔ ';
-		}
+	<style type="text/css">
+
 	</style>
 </head>
 
-<p>You are in <span class="place">the country of <span class="place-name">Foo</span></span>. You meet <span class="person npc boss">John Smith</span>.<br/>
-	He gives you a <span class="item item-weapon item-quality-legendary"><span class="item-name item-weapon-name"><span class="weapon-qualifier-2">warfield king’s</span> <span class="weapon-qualifier-1">onyx</span> <span class="weapon-base">longsword</span></span> <span>+3</span></span>.
-<hr/>
-</p>
+<p>Hello world, freely hosted by Netlify.</p>
+<a>https://github.com/Offirmo/hello-world-netlify-site</a>
+
+
+<script>
+	(document.querySelector('h1') || {}).textContent = document.title;
+	Array.prototype.forEach.call(document.querySelectorAll('a'), function (el) {
+		el.href || (el.href = el.text);
+	});
+</script>
